@@ -1,0 +1,236 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100%;
+  width: auto;
+}
+header {
+  height: 400px;
+  width: 100%;
+  background-color: #6934e6;
+  display: flex;
+}
+nav {
+  height: 30px;
+  width: 600px;
+  padding: 30px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 20px;
+  right: 0;
+}
+nav a {
+  padding-left: 22px;
+}
+.header-image {
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 400px;
+  position: absolute;
+  right: 10px;
+}
+.logo {
+  padding: 30px;
+  height: 60px;
+}
+nav a .nav-item-active {
+  height: 30px;
+  width: 70px;
+  background-color: #fff;
+}
+.header-text {
+  margin-top: 100px;
+  color: white;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+}
+.companies {
+  margin-top: 40px;
+}
+.companies a {
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.api {
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+.api-heading {
+  padding-top: 30px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-active {
+  background-color: gray;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.card-head-active {
+  color: #6934e6;
+}
+div.cards::after {
+  content: ">";
+  height: 30px;
+  width: 30px;
+  background-color: #6934e6;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 25px;
+  color: white;
+  margin-top: 30px;
+}
+.blog-heading {
+  padding: 30px 0 0 30px;
+}
+.blog-heading::after {
+  content: "see all content";
+  color: #7428ee;
+  font-weight: 400;
+
+  position: relative;
+  left: 1000px;
+  bottom: 24px;
+}
+.blog-cards {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  padding-top: 40px;
+  justify-content: space-between;
+  height: 400px;
+}
+.blog-card {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.blog-content {
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+}
+.blog-bottom {
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+}
+div.blog-author {
+  position: relative;
+  bottom: 350px;
+  left: 360px;
+}
+h6 {
+  color: rgb(97, 71, 245);
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgb(187, 187, 186);
+  height: 350px;
+  width: 100%;
+}
+.faq-content {
+  height: 350px;
+  width: 500px;
+}
+.faq-image {
+  height: 350px;
+  width: 450px;
+  margin-left: 150px;
+}
+.faq-content h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.faq-content button {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(162, 52, 235);
+  border: none;
+  color: #ffffff;
+  border-radius: 9px;
+}
+.download-section {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  margin-top: 40px;
+}
+.download-content span {
+  font-weight: 100;
+}
+.download-email {
+  position: relative;
+  left: 400px;
+  top: 20px;
+  height: 70px;
+  width: 500px;
+}
+.download-email input {
+  height: 45px;
+  width: 450px;
+  background-color: rgba(188, 185, 228, 0.725);
+  border: none;
+  border-radius: 25px;
+  color: black;
+}
+.download-email button {
+  height: 40px;
+  width: 130px;
+  background-color: #8649e9;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  bottom: 45px;
+  left: 330px;
+}
+.footer-section {
+  background-color: #7661eb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #ffffff;
+}
+.list-items {
+  margin-right: 30px;
+}
+.footer-logos {
+  margin: 20px;
+}
+.footer-right {
+  margin-left: 12px;
+}
+.logos-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 12px;
+  color: #ffffff;
+}
