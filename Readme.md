@@ -10,7 +10,7 @@ flex property
 ![image](./screen-shots/02.png)
 ![image](./screen-shots/03.png)
 
-# Demo | Netilify
+# Demo | Vercel
 
 Link is here
-https://busniness-website.netlify.app/
+https://bussines-website-project09.vercel.app/
